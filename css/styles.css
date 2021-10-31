@@ -1,0 +1,191 @@
+:root {
+  --main-text-color: #595959;
+  /* headers color  */
+  --secondary-text-color: #000000;
+  /* organization colors  */
+  --organization-text-color: #fb6d3a;
+  --time-frame-text-color: #a8a8a8;
+  /* sidebar  */
+  --sidebar-text-color: #ffffff;
+  --sidebar-bg-color: #1e2939;
+  --sidebar-link-color: #707886;
+  /* page background  */
+  --page-bg-color: #f5f7fa;
+  /* main cv block background */
+  --main-bg-color: #ffffffff;
+}
+/* page styles */
+body {
+  background-color: var(--page-bg-color);
+  color: var(--main-text-color);
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* убирает точки у списков */
+.list {
+  list-style: none;
+}
+/* main styles */
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+/* mainbox styles */
+.main-box {
+  background-color: var(--main-bg-color);
+  padding: 105px 90px 25px 90px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* about styles  */
+.about {
+  margin-bottom: 40px;
+}
+.about-position {
+  font-weight: 700;
+  line-height: 1.21;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+}
+.about-name {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.22;
+  color: var(--secondary-text-color);
+  margin-bottom: 25px;
+}
+.about-description {
+  width: 400px;
+}
+/* projects styles */
+.projects {
+  margin-bottom: 50px;
+}
+.title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.23;
+  color: var(--secondary-text-color);
+  margin-bottom: 10px;
+}
+.projects-list {
+  padding: 0;
+  margin-left: 15px;
+}
+.projects-item {
+  font-weight: 700;
+  color: var(--secondary-text-color);
+}
+.projects-item-text,
+.project-link {
+  color: var(--main-text-color);
+}
+.project-link {
+  margin-left: 10px;
+}
+.project-bracket {
+  font-weight: 700;
+  color: var(--secondary-text-color);
+}
+/* work experience styles */
+.work {
+  margin-bottom: 40px;
+}
+.work-position {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--secondary-text-color);
+  margin-bottom: 10px;
+}
+.work-organisation {
+  color: var(--organization-text-color);
+}
+.time-frame {
+  font-size: 12px;
+  line-height: 1.25;
+  color: var(--time-frame-text-color);
+}
+.line-country {
+  color: var(--secondary-text-color);
+}
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+/* education styles */
+.education-profession {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--secondary-text-color);
+}
+/* sidebar styles */
+.sidebar {
+  background-color: var(--sidebar-bg-color);
+  padding-top: 40px;
+  width: 370px;
+}
+/* photo styles */
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+}
+/* contact type styles */
+.contact-type {
+  font-weight: 700;
+  color: var(--sidebar-text-color);
+  margin-right: 10px;
+}
+/* contact link styles */
+.contact-link {
+  color: var(--sidebar-link-color);
+}
+/* sidebar title styles */
+.sidebar-title {
+  color: var(--sidebar-text-color);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.23;
+  margin-bottom: 10px;
+}
+/* contacts, tech skills, soft skills styles */
+.contacts,
+.techskills,
+.softskills {
+  margin-left: 40px;
+}
+.contacts {
+  margin-bottom: 50px;
+}
+.contacts ul {
+  padding: 0;
+  margin-left: 0;
+}
+.techskills {
+  margin-bottom: 45px;
+}
+
+/* tech skills, soft skills styles */
+.techskills-list,
+.softskills-list {
+  color: var(--sidebar-text-color);
+  padding: 0;
+  margin-left: 17px;
+}
+.techskills-item,
+.softskills-item {
+  color: var(--organization-text-color);
+}
+.techskills-text,
+.softskills-text {
+  color: var(--sidebar-text-color);
+}
