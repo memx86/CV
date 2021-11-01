@@ -32,18 +32,16 @@ body {
 }
 /* main styles */
 .main {
-  /* display: flex; */
-  /* flex-direction: row-reverse; */
-  width: 320px;
+  min-width: 320px;
   margin: 0 auto;
 }
 /* mainbox styles */
 .main-box {
-  width: 320px;
+  min-width: 320px;
   background-color: var(--main-bg-color);
   padding: 25px 0px;
   /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
-  margin-left: 2px;
+  padding-left: 2px;
 }
 
 /* about styles  */
@@ -81,6 +79,17 @@ body {
 .projects-item {
   font-weight: 700;
   color: var(--secondary-text-color);
+}
+.projects-item-text {
+  display: flex;
+  justify-content: space-between;
+}
+.projects-item-text a {
+  flex-basis: 161px;
+}
+.project-technology {
+  flex-grow: 1;
+  margin-left: 2px;
 }
 .projects-item-text,
 .project-link {
