@@ -143,11 +143,12 @@ body {
 .sidebar {
   background-color: var(--sidebar-bg-color);
   padding-top: 25px;
-  width: 320px;
+  min-width: 320px;
 }
 /* photo styles */
 .photo {
-  width: 320px;
+  width: 100%;
+  height: auto;
 }
 /* contact type styles */
 .contact-type {
