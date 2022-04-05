@@ -18,8 +18,9 @@
 body {
   background-color: var(--page-bg-color);
   color: var(--main-text-color);
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, avenir next,
+    avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial,
+    sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -30,23 +31,42 @@ body {
 .list {
   list-style: none;
 }
-/* main styles */
-.main {
+/* body styles */
+.body {
   min-width: 320px;
   margin: 0 auto;
 }
-/* mainbox styles */
-.main-box {
+
+/* main styles */
+.main {
   min-width: 320px;
   background-color: var(--main-bg-color);
-  padding: 25px 0px;
-  /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
+  /* padding: 25px 0px; */
   padding-left: 2px;
+}
+@media screen and (min-width: 768px) {
+  .main {
+    /* padding: 25px 10px; */
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-areas:
+      "sidebar about"
+      "sidebar main";
+    grid-template-columns: minmax(320px, 370px) 1fr;
+    gap: 15px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  }
 }
 
 /* about styles  */
 .about {
   margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .about {
+    grid-area: about;
+  }
 }
 .about-position {
   font-weight: 700;
@@ -60,6 +80,11 @@ body {
   line-height: 1.22;
   color: var(--secondary-text-color);
   margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .wrapper {
+    grid-area: main;
+  }
 }
 /* projects styles */
 .projects {
@@ -159,6 +184,13 @@ body {
 /* contact link styles */
 .contact-link {
   color: var(--sidebar-link-color);
+}
+@media screen and (min-width: 768px) {
+  .sidebar {
+    min-width: 320px;
+    max-width: 370px;
+    grid-area: sidebar;
+  }
 }
 /* sidebar title styles */
 .sidebar-title {

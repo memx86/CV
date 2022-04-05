@@ -9,12 +9,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/media.css" />
     <title>CV</title>
   </head>
-  <body class="main">
+  <body class="body">
     <!--MainBox-->
-    <main class="main-box">
+    <main class="main">
       <!--AboutMe-->
       <section class="about">
         <h2 class="about-position">Front-End Developer</h2>
@@ -24,229 +23,233 @@
           technologies.
         </p>
       </section>
-      <!--Projects-->
-      <section class="projects">
-        <h3 class="title">Projects</h3>
-        <ul class="projects-list list">
-          <li class="projects-item">
-            <span class="projects-item-text">
-              <a
-                href="https://github.com/memx86/team-project-html-css"
-                class="project-link"
-                >Icecream</a
-              >
-              <span class="project-technology">
-                <span class="project-bracket">[</span>HTML5, CSS3<span
-                  class="project-bracket"
-                  >]</span
+      <!--Sidebar-->
+      <aside class="sidebar">
+        <img src="./img/photo.jpg" alt="My Foto" class="photo" />
+        <!--Contacts-->
+        <section class="contacts">
+          <h3 class="sidebar-title">Contacts</h3>
+          <ul class="list">
+            <li>
+              <p>
+                <span class="contact-type">C:</span>
+                <a href="tel:+380663238779" class="contact-link"
+                  >+380 66 323 87 79</a
                 >
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="contact-type">E:</span>
+                <a href="mailto:memx86@gmail.com" class="contact-link"
+                  >memx86@gmail.com</a
+                >
+              </p>
+            </li>
+          </ul>
+        </section>
+        <!--TechSkills-->
+        <section class="techskills">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul class="techskills-list">
+            <li class="techskills-item">
+              <span class="techskills-text">HTML5</span>
+            </li>
+            <li class="techskills-item">
+              <span class="techskills-text">CSS3</span>
+            </li>
+            <li class="techskills-item">
+              <span class="techskills-text">SASS</span>
+            </li>
+            <li class="techskills-item">
+              <span class="techskills-text">JavaScript</span>
+            </li>
+            <li class="techskills-item">
+              <span class="techskills-text">React.js</span>
+            </li>
+            <li class="techskills-item">
+              <span class="techskills-text">Redux.js</span>
+            </li>
+            <li class="techskills-item">
+              <span class="techskills-text">Node.js</span>
+            </li>
+            <li class="techskills-item">
+              <span class="techskills-text">MongoDB, Mongoose ODM</span>
+            </li>
+            <li class="techskills-item">
+              <span class="techskills-text">GIT</span>
+            </li>
+            <li class="techskills-item">
+              <span class="techskills-text">WebPack</span>
+            </li>
+          </ul>
+        </section>
+        <!--SoftSkills-->
+        <section class="softskills">
+          <h3 class="sidebar-title">Soft Skills</h3>
+          <ul class="softskills-list">
+            <li class="softskills-item">
+              <span class="softskills-text">Scrum</span>
+            </li>
+            <li class="softskills-item">
+              <span class="softskills-text">Agile</span>
+            </li>
+            <li class="softskills-item">
+              <span class="softskills-text">GTD</span>
+            </li>
+            <li class="softskills-item">
+              <span class="softskills-text">Teamwork</span>
+            </li>
+          </ul>
+        </section>
+      </aside>
+      <div class="wrapper">
+        <!--Projects-->
+        <section class="projects">
+          <h3 class="title">Projects</h3>
+          <ul class="projects-list list">
+            <li class="projects-item">
+              <span class="projects-item-text">
+                <a
+                  href="https://github.com/memx86/team-project-html-css"
+                  class="project-link"
+                  >Icecream</a
+                >
+                <span class="project-technology">
+                  <span class="project-bracket">[</span>HTML5, CSS3<span
+                    class="project-bracket"
+                    >]</span
+                  >
+                </span>
               </span>
-            </span>
-          </li>
-          <li class="projects-item">
-            <span class="projects-item-text">
-              <a
-                href="https://github.com/memx86/team-project-js"
-                class="project-link"
-                >Filmoteka</a
-              >
-              <span class="project-technology">
-                <span class="project-bracket">[</span>JavaScript
-                <span class="project-bracket">]</span>
+            </li>
+            <li class="projects-item">
+              <span class="projects-item-text">
+                <a
+                  href="https://github.com/memx86/team-project-js"
+                  class="project-link"
+                  >Filmoteka</a
+                >
+                <span class="project-technology">
+                  <span class="project-bracket">[</span>JavaScript
+                  <span class="project-bracket">]</span>
+                </span>
               </span>
-            </span>
-          </li>
-          <li class="projects-item">
-            <span class="projects-item-text">
-              <a
-                href="https://github.com/memx86/goit-react-hw-08-phonebook"
-                class="project-link"
-                >Contacts Front-End</a
-              >
-              <span class="project-technology">
-                <span class="project-bracket">[</span>React.js
-                <span class="project-bracket">]</span>
+            </li>
+            <li class="projects-item">
+              <span class="projects-item-text">
+                <a
+                  href="https://github.com/memx86/goit-react-hw-08-phonebook"
+                  class="project-link"
+                  >Contacts Front-End</a
+                >
+                <span class="project-technology">
+                  <span class="project-bracket">[</span>React.js
+                  <span class="project-bracket">]</span>
+                </span>
               </span>
-            </span>
-          </li>
-          <li class="projects-item">
-            <span class="projects-item-text">
-              <a
-                href="https://github.com/memx86/nodejs-homework-template/tree/hw06-email"
-                class="project-link"
-                >Contacts Back-End</a
-              >
-              <span class="project-technology">
-                <span class="project-bracket">[</span>Node.js
-                <span class="project-bracket">]</span>
+            </li>
+            <li class="projects-item">
+              <span class="projects-item-text">
+                <a
+                  href="https://github.com/memx86/nodejs-homework-template/tree/hw06-email"
+                  class="project-link"
+                  >Contacts Back-End</a
+                >
+                <span class="project-technology">
+                  <span class="project-bracket">[</span>Node.js
+                  <span class="project-bracket">]</span>
+                </span>
               </span>
-            </span>
-          </li>
-        </ul>
-      </section>
-      <!--WorkExperience-->
-      <section class="work">
-        <h3 class="title">Work Experience</h3>
-        <ul class="list">
-          <!--Company1-->
-          <li>
-            <h4 class="work-position">
-              Front-End Developer
-              <span class="work-organisation"
-                >Freelance security consultant</span
-              >
-            </h4>
-            <p class="time-frame">
-              August 2020 - up to now
-              <span class="line-country">|</span> Ukraine
-            </p>
-            <ul class="work-list">
-              <li>
-                Designing, implementing, and maintaining security protocols,
-                policies, plans, and systems to cover all possible security
-                threats.
-              </li>
-              <li>
-                Testing and analyzing assets for potential security threats.
-              </li>
-              <li>
-                Identifying possible security threats and determining the best
-                security measures.
-              </li>
-              <li>Suggesting improvements to existing security systems.</li>
-            </ul>
-          </li>
-          <!--Company2-->
-          <li>
-            <h4 class="work-position">
-              Officer
-              <span class="work-organisation">Security Service of Ukraine</span>
-            </h4>
-            <p class="time-frame">
-              August 2010 - August 2020
-              <span class="line-country">|</span> Ukraine
-            </p>
-            <ul class="work-list">
-              <li>Technical specialist. Classified.</li>
-            </ul>
-          </li>
-          <!--Company3-->
-          <li>
-            <h4 class="work-position">
-              Technical Support Specialist
-              <span class="work-organisation">Metabank</span>
-            </h4>
-            <p class="time-frame">
-              January 2008 - August 2010
-              <span class="line-country">|</span> Ukraine
-            </p>
-            <ul class="work-list">
-              <li>
-                Responding to customer inquiries and assisting in
-                troubleshooting and resolving challenges.
-              </li>
-              <li>Maintaining system functionality.</li>
-              <li>
-                Installing and configuring computer systems and applications
-                within the company
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      <!--Education-->
-      <section>
-        <h3 class="title">Education</h3>
-        <h4 class="work-organisation">
-          Zaporozhye National Technical University
-        </h4>
-        <p class="education-profession">
-          Master's degree, Computer science, Grade: A
-        </p>
-        <p class="time-frame">
-          September 2003 - June 2008 <span class="line-country">|</span> Ukraine
-        </p>
-      </section>
+            </li>
+          </ul>
+        </section>
+        <!--WorkExperience-->
+        <section class="work">
+          <h3 class="title">Work Experience</h3>
+          <ul class="list">
+            <!--Company1-->
+            <li>
+              <h4 class="work-position">
+                Front-End Developer
+                <span class="work-organisation"
+                  >Freelance security consultant</span
+                >
+              </h4>
+              <p class="time-frame">
+                August 2020 - up to now
+                <span class="line-country">|</span> Ukraine
+              </p>
+              <ul class="work-list">
+                <li>
+                  Designing, implementing, and maintaining security protocols,
+                  policies, plans, and systems to cover all possible security
+                  threats.
+                </li>
+                <li>
+                  Testing and analyzing assets for potential security threats.
+                </li>
+                <li>
+                  Identifying possible security threats and determining the best
+                  security measures.
+                </li>
+                <li>Suggesting improvements to existing security systems.</li>
+              </ul>
+            </li>
+            <!--Company2-->
+            <li>
+              <h4 class="work-position">
+                Officer
+                <span class="work-organisation"
+                  >Security Service of Ukraine</span
+                >
+              </h4>
+              <p class="time-frame">
+                August 2010 - August 2020
+                <span class="line-country">|</span> Ukraine
+              </p>
+              <ul class="work-list">
+                <li>Technical specialist. Classified.</li>
+              </ul>
+            </li>
+            <!--Company3-->
+            <li>
+              <h4 class="work-position">
+                Technical Support Specialist
+                <span class="work-organisation">Metabank</span>
+              </h4>
+              <p class="time-frame">
+                January 2008 - August 2010
+                <span class="line-country">|</span> Ukraine
+              </p>
+              <ul class="work-list">
+                <li>
+                  Responding to customer inquiries and assisting in
+                  troubleshooting and resolving challenges.
+                </li>
+                <li>Maintaining system functionality.</li>
+                <li>
+                  Installing and configuring computer systems and applications
+                  within the company
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <!--Education-->
+        <section>
+          <h3 class="title">Education</h3>
+          <h4 class="work-organisation">
+            Zaporozhye National Technical University
+          </h4>
+          <p class="education-profession">Computer science</p>
+          <p class="education-profession">Master's degree, Grade: A</p>
+          <p class="time-frame">
+            September 2003 - June 2008
+            <span class="line-country">|</span> Ukraine
+          </p>
+        </section>
+      </div>
     </main>
-    <!--Sidebar-->
-    <aside class="sidebar">
-      <img src="./img/photo.jpg" alt="My Foto" class="photo" />
-      <!--Contacts-->
-      <section class="contacts">
-        <h3 class="sidebar-title">Contacts</h3>
-        <ul class="list">
-          <li>
-            <p>
-              <span class="contact-type">C:</span>
-              <a href="tel:+380663238779" class="contact-link"
-                >+380 66 323 87 79</a
-              >
-            </p>
-          </li>
-          <li>
-            <p>
-              <span class="contact-type">E:</span>
-              <a href="mailto:memx86@gmail.com" class="contact-link"
-                >memx86@gmail.com</a
-              >
-            </p>
-          </li>
-        </ul>
-      </section>
-      <!--TechSkills-->
-      <section class="techskills">
-        <h3 class="sidebar-title">Tech Skills</h3>
-        <ul class="techskills-list">
-          <li class="techskills-item">
-            <span class="techskills-text">HTML5</span>
-          </li>
-          <li class="techskills-item">
-            <span class="techskills-text">CSS3</span>
-          </li>
-          <li class="techskills-item">
-            <span class="techskills-text">SASS</span>
-          </li>
-          <li class="techskills-item">
-            <span class="techskills-text">JavaScript</span>
-          </li>
-          <li class="techskills-item">
-            <span class="techskills-text">React.js</span>
-          </li>
-          <li class="techskills-item">
-            <span class="techskills-text">Redux.js</span>
-          </li>
-          <li class="techskills-item">
-            <span class="techskills-text">Node.js</span>
-          </li>
-          <li class="techskills-item">
-            <span class="techskills-text">MongoDB, Mongoose ODM</span>
-          </li>
-          <li class="techskills-item">
-            <span class="techskills-text">GIT</span>
-          </li>
-          <li class="techskills-item">
-            <span class="techskills-text">WebPack</span>
-          </li>
-        </ul>
-      </section>
-      <!--SoftSkills-->
-      <section class="softskills">
-        <h3 class="sidebar-title">Soft Skills</h3>
-        <ul class="softskills-list">
-          <li class="softskills-item">
-            <span class="softskills-text">Scrum</span>
-          </li>
-          <li class="softskills-item">
-            <span class="softskills-text">Agile</span>
-          </li>
-          <li class="softskills-item">
-            <span class="softskills-text">GTD</span>
-          </li>
-          <li class="softskills-item">
-            <span class="softskills-text">Teamwork</span>
-          </li>
-        </ul>
-      </section>
-    </aside>
   </body>
 </html>
